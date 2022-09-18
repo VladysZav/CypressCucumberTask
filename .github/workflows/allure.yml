@@ -56,7 +56,7 @@ jobs:
               if: always()
               with:
                   allure_results: allure-results
-                  gh_pages: allure
+                  gh_pages: gh-paged
 
             - name: Deploy report to Github Pages
               if: always()
