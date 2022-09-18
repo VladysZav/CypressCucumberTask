@@ -34,7 +34,7 @@ jobs:
 
             - name: Run Cypress
               continue-on-error: true
-              run: cypress run --env allure=true
+              run: cypress run
               env:
                   CYPRESS_SPLIT_SPEC_API_KEY: '${{ secrets.SPLIT_SPEC_API_KEY }}'
 
