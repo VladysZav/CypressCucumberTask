@@ -1,0 +1,24 @@
+{
+  "name": "cypresscucumbertask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testOpen:cy": "cypress open --env allure=true",
+    "testRun:cy": "cypress run --env allure=true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "npx allure open ./allure-report",
+    "testRunWithoutAllure:cy": "cypress run --config-file cypressWithoutAllure.config.js"
+  },
+  "author": "Zavalii",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.12.2",
+    "@shelex/cypress-allure-plugin": "^2.31.0",
+    "cypress": "^10.8.0",
+    "webpack": "^5.74.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.0"
+  }
+}
