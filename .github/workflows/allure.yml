@@ -34,7 +34,7 @@ jobs:
 
             - name: Run Cypress
               continue-on-error: true
-              run: npm run cy:run
+              run: npx cypress run
               env:
                   CYPRESS_SPLIT_SPEC_API_KEY: '${{ secrets.SPLIT_SPEC_API_KEY }}'
 
