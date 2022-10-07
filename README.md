@@ -10,6 +10,7 @@
 ####  3. Create the package.json "npm init"
 ####  4. Install Cypress last version "npm install cypress --save-dev"
 ####  5. Install Cucumber last version "npm install @badeball/cypress-cucumber-preprocessor"
-####  6. Install Allure reporter last version "npm i -D @shelex/cypress-allure-plugin"
+####  6. Install Allure webpack last version "npm install --save-dev webpack"
+####  7. Install Allure reporter last version "npm i -D @shelex/cypress-allure-plugin"
 
 
