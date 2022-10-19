@@ -12,5 +12,5 @@
 ####  5. Install Cucumber last version "npm install @badeball/cypress-cucumber-preprocessor"
 ####  6. Install Allure webpack last version "npm install --save-dev webpack"
 ####  7. Install Allure reporter last version "npm i -D @shelex/cypress-allure-plugin"
-
+####  8. Run tests "cypress open --env allure=true" or "cypress run --env allure=true"
 
